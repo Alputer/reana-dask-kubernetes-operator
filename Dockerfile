@@ -42,7 +42,7 @@ RUN pip install --no-cache-dir --force-reinstall msgpack==1.1.0 && pip check
 USER 1000
 
 LABEL org.opencontainers.image.authors="team@reanahub.io"
-LABEL org.opencontainers.image.created="CHANGE_ME??2025-04-24"
+LABEL org.opencontainers.image.created="2026-01-06"
 LABEL org.opencontainers.image.description="REANA reproducible analysis platform - Dask Kubernetes operator component"
 LABEL org.opencontainers.image.licenses="MIT"
 LABEL org.opencontainers.image.source="https://github.com/reanahub/reana-dask-kubernetes-operator"
@@ -50,5 +50,5 @@ LABEL org.opencontainers.image.title="reana-dask-kubernetes-operator"
 LABEL org.opencontainers.image.url="https://github.com/reanahub/reana-dask-kubernetes-operator"
 LABEL org.opencontainers.image.vendor="reanahub"
 # x-release-please-start-version
-LABEL org.opencontainers.image.version="0.95.0"
+LABEL org.opencontainers.image.version="0.95.0-alpha.1"
 # x-release-please-end

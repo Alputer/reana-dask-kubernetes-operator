@@ -11,4 +11,4 @@
 This file is imported by ``reana_dask_kubernetes_operator.__init__`` and parsed by
 ``setup.py``.
 """
-__version__ = "0.95.0"
+__version__ = "0.95.0a1"
