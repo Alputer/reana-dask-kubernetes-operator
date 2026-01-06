@@ -41,8 +41,8 @@ pycparser==2.22           # via cffi
 python-dateutil==2.9.0.post0  # via arrow, bravado, bravado-core
 pytz==2025.1              # via bravado-core
 pyyaml==6.0.2             # via bravado, bravado-core, reana-commons, swagger-spec-validator
-reana-commons==0.95.0a9   # via reana-dask-kubernetes-operator (pyproject.toml), reana-db
-reana-db==0.95.0a5        # via reana-dask-kubernetes-operator (pyproject.toml)
+reana-commons==0.95.0a12	# via reana-dask-kubernetes-operator (pyproject.toml), reana-db
+reana-db==0.95.0a6	# via reana-dask-kubernetes-operator (pyproject.toml)
 referencing==0.36.2       # via jsonschema, jsonschema-specifications
 requests==2.32.3          # via bravado, bravado-core
 rfc3339-validator==0.1.4  # via jsonschema
